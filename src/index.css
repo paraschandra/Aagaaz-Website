@@ -29,10 +29,9 @@ body{
     font-weight: 600;
     font-size: 2rem;
     margin-right: 38rem;
-    color: white
 }
 
-.reg-btn{
+.btn{
     border: .125rem solid black;
     border-radius: 1.35rem;
     border-color: #0181FC;
@@ -41,9 +40,8 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
-   
     cursor: pointer;
+    color: black;
 }
 a:hover{
     color: white;
@@ -51,6 +49,26 @@ a:hover{
 }
 
 .main{
-    background-color: #2D2E32;
+    
+    background-color: white;
     height: 100vh;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: white;
+    padding: 0 12rem;
+}
+
+.hero{
+    line-height: 5rem;
+    margin-top: 6rem;
+}
+
+.fusion-logo{
+    width: 32rem;
+    height: 32rem;
 }
