@@ -86,7 +86,7 @@ b{
 
 .events{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 100vh;
     max-width: 100%;
